@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="504.12" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="D:\Learning Java\New\Driver\chromedriver_win32\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Learning Java\New\DataDrivenFramework\target\test-classes;D:\Learning Java\New\DataDrivenFramework\target\classes;C:\Users\Gyan\.m2\repository\com\aventstack\extentreports\5.0.7\extentreports-5.0.7.jar;C:\Users\Gyan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Gyan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Gyan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Gyan\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Gyan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Gyan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Gyan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Gyan\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\Gyan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-beta-1\selenium-java-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-beta-1\selenium-api-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-beta-1\selenium-chrome-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\Gyan\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\Gyan\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Gyan\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\Gyan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Gyan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gyan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gyan\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Gyan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Gyan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-beta-1\selenium-chromium-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-beta-1\selenium-devtools-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-beta-1\selenium-http-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-beta-1\selenium-json-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-beta-1\selenium-devtools-v86-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-beta-1\selenium-devtools-v87-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v88\4.0.0-beta-1\selenium-devtools-v88-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v89\4.0.0-beta-1\selenium-devtools-v89-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-beta-1\selenium-edge-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-beta-1\selenium-firefox-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-beta-1\selenium-firefox-xpi-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-beta-1\selenium-ie-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-beta-1\selenium-opera-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-beta-1\selenium-remote-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-buffer\4.1.58.Final\netty-buffer-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec-http\4.1.58.Final\netty-codec-http-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec\4.1.58.Final\netty-codec-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-handler\4.1.58.Final\netty-handler-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-common\4.1.58.Final\netty-common-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.58.Final\netty-transport-native-epoll-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.58.Final\netty-transport-native-kqueue-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.58.Final\netty-transport-native-unix-common-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport\4.1.58.Final\netty-transport-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-resolver\4.1.58.Final\netty-resolver-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-api\0.14.1\opentelemetry-api-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-context\0.14.1\opentelemetry-context-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\0.14.1\opentelemetry-exporter-logging-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\0.14.1-alpha\opentelemetry-sdk-metrics-0.14.1-alpha.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\0.14.1\opentelemetry-sdk-common-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\0.14.1\opentelemetry-sdk-trace-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\0.14.1-alpha\opentelemetry-api-metrics-0.14.1-alpha.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.14.1\opentelemetry-sdk-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-semconv\0.14.1\opentelemetry-semconv-0.14.1.jar;C:\Users\Gyan\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\Gyan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gyan\.m2\repository\org\asynchttpclient\async-http-client\2.12.2\async-http-client-2.12.2.jar;C:\Users\Gyan\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.2\async-http-client-netty-utils-2.12.2.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec-socks\4.1.53.Final\netty-codec-socks-4.1.53.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-handler-proxy\4.1.53.Final\netty-handler-proxy-4.1.53.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\Gyan\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Gyan\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gyan\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-beta-1\selenium-safari-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-beta-1\selenium-support-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="webdriver.ie.driver" value="D:\Learning Java\New\Driver\IEDriverServer_Win32_3.150.1\IEDriverServer.exe"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="webdriver.chrome.silentOutput" value="true"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_112\bin"/>
+    <property name="sun.java.command" value="C:\Users\Gyan\AppData\Local\Temp\surefire2424090792121025933\surefirebooter1727594367342333636.jar C:\Users\Gyan\AppData\Local\Temp\surefire2424090792121025933 2021-05-08T12-49-30_370-jvmRun1 surefire7293597466303875129tmp surefire_04114472457253459809tmp"/>
+    <property name="surefire.test.class.path" value="D:\Learning Java\New\DataDrivenFramework\target\test-classes;D:\Learning Java\New\DataDrivenFramework\target\classes;C:\Users\Gyan\.m2\repository\com\aventstack\extentreports\5.0.7\extentreports-5.0.7.jar;C:\Users\Gyan\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Gyan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Gyan\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Gyan\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Gyan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Gyan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Gyan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Gyan\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\Gyan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-beta-1\selenium-java-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-beta-1\selenium-api-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-beta-1\selenium-chrome-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\Gyan\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\Gyan\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Gyan\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\Gyan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Gyan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gyan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gyan\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Gyan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Gyan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-beta-1\selenium-chromium-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-beta-1\selenium-devtools-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-beta-1\selenium-http-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-beta-1\selenium-json-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-beta-1\selenium-devtools-v86-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-beta-1\selenium-devtools-v87-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v88\4.0.0-beta-1\selenium-devtools-v88-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v89\4.0.0-beta-1\selenium-devtools-v89-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-beta-1\selenium-edge-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-beta-1\selenium-firefox-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-beta-1\selenium-firefox-xpi-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-beta-1\selenium-ie-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-beta-1\selenium-opera-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-beta-1\selenium-remote-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-buffer\4.1.58.Final\netty-buffer-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec-http\4.1.58.Final\netty-codec-http-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec\4.1.58.Final\netty-codec-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-handler\4.1.58.Final\netty-handler-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-common\4.1.58.Final\netty-common-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.58.Final\netty-transport-native-epoll-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.58.Final\netty-transport-native-kqueue-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.58.Final\netty-transport-native-unix-common-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport\4.1.58.Final\netty-transport-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-resolver\4.1.58.Final\netty-resolver-4.1.58.Final.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-api\0.14.1\opentelemetry-api-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-context\0.14.1\opentelemetry-context-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\0.14.1\opentelemetry-exporter-logging-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\0.14.1-alpha\opentelemetry-sdk-metrics-0.14.1-alpha.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\0.14.1\opentelemetry-sdk-common-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\0.14.1\opentelemetry-sdk-trace-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\0.14.1-alpha\opentelemetry-api-metrics-0.14.1-alpha.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.14.1\opentelemetry-sdk-0.14.1.jar;C:\Users\Gyan\.m2\repository\io\opentelemetry\opentelemetry-semconv\0.14.1\opentelemetry-semconv-0.14.1.jar;C:\Users\Gyan\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\Gyan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gyan\.m2\repository\org\asynchttpclient\async-http-client\2.12.2\async-http-client-2.12.2.jar;C:\Users\Gyan\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.2\async-http-client-netty-utils-2.12.2.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-codec-socks\4.1.53.Final\netty-codec-socks-4.1.53.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-handler-proxy\4.1.53.Final\netty-handler-proxy-4.1.53.Final.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\Gyan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\Gyan\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Gyan\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gyan\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-beta-1\selenium-safari-driver-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-beta-1\selenium-support-4.0.0-beta-1.jar;C:\Users\Gyan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Gyan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_112"/>
+    <property name="basedir" value="D:\Learning Java\New\DataDrivenFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gyan\AppData\Local\Temp\surefire2424090792121025933\surefirebooter1727594367342333636.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_112\lib\resources.jar;C:\Program Files\Java\jre1.8.0_112\lib\rt.jar;C:\Program Files\Java\jre1.8.0_112\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_112\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_112\lib\jce.jar;C:\Program Files\Java\jre1.8.0_112\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_112\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_112\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="webdriver.edge.driver" value="D:\Learning Java\New\Driver\edgedriver_win64\msedgedriver.exe"/>
+    <property name="user.name" value="Gyan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_112\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Gyan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gyan\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="user.dir" value="D:\Learning Java\New\DataDrivenFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="D:\Learning Java\New\Driver\geckodriver-v0.29.1-win64\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;D:\Learning Java\New\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jre1.8.0_112\bin;C:\Users\Gyan\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_112\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="doLogin[org.testng.TestRunner@7ef2d7a6](1)" classname="testcases.rediff.Session" time="34.22">
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : listener.MyTestNGListener
+---------------Before Test------------------
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+***************Before Method***************
+Logging In
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+-------Test Passed----- doLogin
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ChromeDriver was started successfully.
+May 08, 2021 12:50:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:50:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:50:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+ChromeDriver was started successfully.
+May 08, 2021 12:51:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:51:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:51:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="doLogin[org.testng.TestRunner@49cf9028](1)" classname="testcases.rediff.Session" time="42.696">
+    <system-out><![CDATA[---------------Before Test------------------
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+***************Before Method***************
+Logging In
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+-------Test Passed----- doLogin
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+May 08, 2021 12:51:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:51:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:51:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+ChromeDriver was started successfully.
+May 08, 2021 12:52:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:52:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:52:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="createPortfolio" classname="testcases.rediff.PortfolioManagement" time="3.522">
+    <system-out><![CDATA[***************Before Method***************
+Creating Portfolio
+Clicking oncreatePortfolio_id
+Checking presence of createPortfolio_id
+Checking visibility of createPortfolio_id
+Clearning the text in portfolioname_id
+Checking presence of portfolioname_id
+Checking visibility of portfolioname_id
+Typing in portfolioname_id . Data Portfolio12026
+Checking presence of portfolioname_id
+Checking visibility of portfolioname_id
+Clicking oncreatePortfolioButton_css
+Checking presence of createPortfolioButton_css
+Checking visibility of createPortfolioButton_css
+complete
+1
+0
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+-------Test Passed----- createPortfolio
+]]></system-out>
+  </testcase>
+  <testcase name="deletePortfolio" classname="testcases.rediff.PortfolioManagement" time="8.548">
+    <system-out><![CDATA[***************Before Method***************
+Deleting Portfolio
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+complete
+0
+Clicking ondeletePortfolio_id
+Checking presence of deletePortfolio_id
+Checking visibility of deletePortfolio_id
+complete
+1
+0
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+-------Test Passed----- deletePortfolio
+]]></system-out>
+  </testcase>
+  <testcase name="selectPortfolio" classname="testcases.rediff.PortfolioManagement" time="2.195">
+    <system-out><![CDATA[---------------Before Test------------------
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+***************Before Method***************
+Selecting Portfolio
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+complete
+0
+-------Test Passed----- selectPortfolio
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+May 08, 2021 12:54:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:54:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:54:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="selectPortfolio" classname="testcases.rediff.PortfolioManagement" time="2.832">
+    <system-out><![CDATA[---------------Before Test------------------
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+***************Before Method***************
+Selecting Portfolio
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+complete
+0
+-------Test Passed----- selectPortfolio
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+May 08, 2021 12:55:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:55:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:55:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="selectPortfolio" classname="testcases.rediff.PortfolioManagement" time="14.662">
+    <system-out><![CDATA[---------------Before Test------------------
+Opening the browser Chrome
+Navigating to url
+Typing in username_css . Data gyanphoton@rediffmail.com
+Checking presence of username_css
+Checking visibility of username_css
+Typing in password_xpath . Data Password123!
+Checking presence of password_xpath
+Checking visibility of password_xpath
+Checking presence of login_submit_id
+Clicking onlogin_submit_id
+Checking presence of login_submit_id
+Checking visibility of login_submit_id
+complete
+1
+0
+***************Before Method***************
+Selecting Portfolio
+Checking presence of portfolioid_dropdown_id
+Checking visibility of portfolioid_dropdown_id
+complete
+0
+-------Test Passed----- selectPortfolio
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+May 08, 2021 12:57:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 08, 2021 12:57:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 08, 2021 12:57:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="addNewStock[org.testng.TestRunner@3968bc60](1)" classname="testcases.rediff.StockManagement" time="7.533">
+    <system-out><![CDATA[***************Before Method***************
+Adding 100 stocks of Birla Corporation Ltd
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 300
+Clicking onaddStock_id
+Checking presence of addStock_id
+Checking visibility of addStock_id
+Typing in addstockname_id . Data Birla Corporation Ltd
+Checking presence of addstockname_id
+Checking visibility of addstockname_id
+Clicking enter button
+Checking presence of addstockname_id
+Checking visibility of addstockname_id
+Clicking onstockPurchaseDate_id
+Checking presence of stockPurchaseDate_id
+Checking visibility of stockPurchaseDate_id
+Selecting date 4-10-2020
+Sat May 08 12:54:20 IST 2021
+Sun Oct 04 00:00:00 IST 2020
+4 ---- October ---- 2020
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Typing in addstockqty_id . Data 100
+Checking presence of addstockqty_id
+Checking visibility of addstockqty_id
+Typing in addstockprice_id . Data 200
+Checking presence of addstockprice_id
+Checking visibility of addstockprice_id
+Clicking onaddStockButton_id
+Checking presence of addStockButton_id
+Checking visibility of addStockButton_id
+complete
+1
+0
+Stocks added successfully
+-------Test Passed----- addNewStock
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockPresent" classname="testcases.rediff.StockManagement" time="0.017">
+    <system-out><![CDATA[***************Before Method***************
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+-------Test Passed----- verifyStockPresent
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockPresent" classname="testcases.rediff.StockManagement" time="0.135">
+    <system-out><![CDATA[***************Before Method***************
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+-------Test Passed----- verifyStockPresent
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockPresent" classname="testcases.rediff.StockManagement" time="0.017">
+    <system-out><![CDATA[***************Before Method***************
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+-------Test Passed----- verifyStockPresent
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockQuantity[addstock, org.testng.TestRunner@3968bc60](1)" classname="testcases.rediff.StockManagement" time="0.224">
+    <system-out><![CDATA[***************Before Method***************
+Verifying stock quantity after action - addstock
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 400
+Old stock quantity 400
+New stock quantity 400
+Stock quantity changed as per expected 100
+-------Test Passed----- verifyStockQuantity
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTransactionHistory[addstock](1)" classname="testcases.rediff.StockManagement" time="0.69">
+    <system-out><![CDATA[***************Before Method***************
+Verifying transaction history for addstockfor quantity 100
+Selecting the company row Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Getting the text
+Checking presence of latestShareChangeQuantity_xpath
+Checking visibility of latestShareChangeQuantity_xpath
+Got changed quantity 100
+Transaction History OK
+-------Test Passed----- verifyTransactionHistory
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTransactionHistory[addstock](1)" classname="testcases.rediff.StockManagement" time="0.634">
+    <system-out><![CDATA[***************Before Method***************
+Verifying transaction history for addstockfor quantity 100
+Selecting the company row Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Getting the text
+Checking presence of latestShareChangeQuantity_xpath
+Checking visibility of latestShareChangeQuantity_xpath
+Got changed quantity 100
+Transaction History OK
+-------Test Passed----- verifyTransactionHistory
+]]></system-out>
+  </testcase>
+  <testcase name="modifyStock[sellstock, org.testng.TestRunner@1536ea40](1)" classname="testcases.rediff.StockManagement" time="14.088">
+    <system-out><![CDATA[***************Before Method***************
+Selling 100 of company Birla Corporation Ltd
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 400
+Selecting the company row Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Checking presence of equityaction_id
+Checking visibility of equityaction_id
+Clicking onbuySellCalendar_id
+Checking presence of buySellCalendar_id
+Checking visibility of buySellCalendar_id
+Selecting Date 14-12-2020
+Selecting date 14-12-2020
+Sat May 08 12:55:59 IST 2021
+Mon Dec 14 00:00:00 IST 2020
+14 ---- December ---- 2020
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Typing in buysellqty_id . Data 100
+Checking presence of buysellqty_id
+Checking visibility of buysellqty_id
+Typing in buysellprice_id . Data 200
+Checking presence of buysellprice_id
+Checking visibility of buysellprice_id
+Clicking onbuySellStockButton_id
+Checking presence of buySellStockButton_id
+Checking visibility of buySellStockButton_id
+complete
+1
+0
+Stock Sold 
+-------Test Passed----- modifyStock
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockQuantity[sellstock, org.testng.TestRunner@1536ea40](1)" classname="testcases.rediff.StockManagement" time="0.026">
+    <system-out><![CDATA[***************Before Method***************
+Verifying stock quantity after action - sellstock
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 300
+Old stock quantity 300
+New stock quantity 300
+Stock quantity changed as per expected 100
+-------Test Passed----- verifyStockQuantity
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTransactionHistory[sellstock](1)" classname="testcases.rediff.StockManagement" time="0.608">
+    <system-out><![CDATA[***************Before Method***************
+Verifying transaction history for sellstockfor quantity 100
+Selecting the company row Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Getting the text
+Checking presence of latestShareChangeQuantity_xpath
+Checking visibility of latestShareChangeQuantity_xpath
+Got changed quantity -100
+Transaction History OK
+-------Test Passed----- verifyTransactionHistory
+]]></system-out>
+  </testcase>
+  <testcase name="modifyStock[addstock, org.testng.TestRunner@72af90e8](1)" classname="testcases.rediff.StockManagement" time="11.752">
+    <system-out><![CDATA[***************Before Method***************
+Buying 100 of company Birla Corporation Ltd
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 300
+Selecting the company row Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Checking presence of equityaction_id
+Checking visibility of equityaction_id
+Clicking onbuySellCalendar_id
+Checking presence of buySellCalendar_id
+Checking visibility of buySellCalendar_id
+Selecting Date 14-12-2020
+Selecting date 14-12-2020
+Sat May 08 12:57:40 IST 2021
+Mon Dec 14 00:00:00 IST 2020
+14 ---- December ---- 2020
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Checking presence of monthyear_css
+Checking visibility of monthyear_css
+Typing in buysellqty_id . Data 100
+Checking presence of buysellqty_id
+Checking visibility of buysellqty_id
+Typing in buysellprice_id . Data 200
+Checking presence of buysellprice_id
+Checking visibility of buysellprice_id
+Clicking onbuySellStockButton_id
+Checking presence of buySellStockButton_id
+Checking visibility of buySellStockButton_id
+complete
+1
+0
+Stock bought
+-------Test Passed----- modifyStock
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStockQuantity[addstock, org.testng.TestRunner@72af90e8](1)" classname="testcases.rediff.StockManagement" time="0.594">
+    <system-out><![CDATA[***************Before Method***************
+Verifying stock quantity after action - addstock
+Finding current stock quantity for Birla Corporation Ltd
+Checking presence of stocktable_css
+Checking visibility of stocktable_css
+Current stock Quantity 400
+Old stock quantity 400
+New stock quantity 400
+Stock quantity changed as per expected 100
+-------Test Passed----- verifyStockQuantity
+]]></system-out>
+  </testcase>
+</testsuite>

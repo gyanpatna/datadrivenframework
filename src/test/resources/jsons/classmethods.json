@@ -1,0 +1,16 @@
+{
+"classdetails":[
+	{
+	 "class":"testcases.rediff.Session",
+	 "methods":["doLogin","doLogout"]
+	}, 
+	{
+	 "class":"testcases.rediff.PortfolioManagement",
+	 "methods":["createPortfolio","deletePortfolio","selectPortfolio"]
+	}, 
+	{
+	 "class":"testcases.rediff.StockManagement",
+	 "methods":["addNewStock","modifyStock","verifyStockPresent","verifyStockQuantity","verifyTransactionHistory"]
+	}
+  ] 
+}

@@ -1,0 +1,40 @@
+{
+	"suitename":"Portfolio Suite",
+	 "testcases":[ 
+	{
+	   "name":"Create Portfolio",
+	   "parameternames":["action","browser"],
+	   "executions":[ 
+	   	  { 
+	   	  "runmode":"Y",
+	   	  "executionname":"Create New Portfolio-pos",
+	   	  "dataflag":"createnewportfolio",
+	   	  "parametervalues":["createport","chrome"],
+	   	  "methods":["createPortfolio"]
+	   	  },
+	   	  { 
+	   	  "runmode":"N",
+	   	  "executionname":"Create New Portfolio-neg",
+	   	  "dataflag":"createnewportfolio",
+	   	  "parametervalues":["createport","mozilla"],
+	   	  "methods":["createPortfolio"]
+	   	  }
+	   ]
+	},
+		{ 
+		"name":"Delete Portfolio",
+	   	"parameternames":["action","browser"],
+	    "executions":[ 
+	   	  { 
+	   	  "runmode":"N",
+	   	  "executionname":"Delete Existing Portfolio",
+	   	  "dataflag":"deleteportfolio",
+	   	  "parametervalues":["createport","chrome"],
+	   	  "methods":["deletePortfolio"]
+	   	  }
+	] 
+}
+
+]
+
+}

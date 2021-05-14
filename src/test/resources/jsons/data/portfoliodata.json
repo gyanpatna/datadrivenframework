@@ -1,0 +1,34 @@
+{
+	"testdata":[
+	{
+		"flag":"createnewportfolio", 
+		"data":[ 
+		{
+		"portfolioname":"Gyan2021",
+		"runmode":"Y" 
+		},
+		{
+		"portfolioname":"Gyan2020",
+		"runmode":"Y" 
+		}
+		]
+		
+	},
+	{
+		"flag":"deleteportfolio", 
+		"data":[ 
+		{
+		"portfolioname":"Gyan2021",
+		"runmode":"N" 
+		},
+		{
+		"portfolioname":"Gyan2020",
+		"runmode":"N" 
+		}
+		]
+		
+	} 
+	
+	] 
+
+}

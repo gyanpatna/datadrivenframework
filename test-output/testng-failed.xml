@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]">
+  <test thread-count="5" name="Add New Stock-New Stock-It.1(failed)">
+    <parameter name="action" value="addstock"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="paraname1" value="paraval1"/>
+    <parameter name="datafilepath" value="D:\Learning Java\New\DataDrivenFramework//src//test//resources//jsons//data//stockdata.json"/>
+    <parameter name="dataflag" value="addfreshstock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Add New Stock-New Stock-It.1(failed) -->
+  <test thread-count="5" name="Add New Stock-New Stock-It.2(failed)">
+    <parameter name="action" value="addstock"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="paraname1" value="paraval1"/>
+    <parameter name="datafilepath" value="D:\Learning Java\New\DataDrivenFramework//src//test//resources//jsons//data//stockdata.json"/>
+    <parameter name="dataflag" value="addfreshstock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent" invocation-numbers="0"/>
+          <include name="verifyTransactionHistory"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+    </classes>
+  </test> <!-- Add New Stock-New Stock-It.2(failed) -->
+  <test thread-count="5" name="Modify Stock-Sell Existing Stock-It.1(failed)">
+    <parameter name="action" value="sellstock"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="paraname1" value="paraval1"/>
+    <parameter name="datafilepath" value="D:\Learning Java\New\DataDrivenFramework//src//test//resources//jsons//data//stockdata.json"/>
+    <parameter name="dataflag" value="sellexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Sell Existing Stock-It.1(failed) -->
+  <test thread-count="5" name="Modify Stock-Buy Existing Stock-It.1(failed)">
+    <parameter name="action" value="addstock"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="paraname1" value="paraval1"/>
+    <parameter name="datafilepath" value="D:\Learning Java\New\DataDrivenFramework//src//test//resources//jsons//data//stockdata.json"/>
+    <parameter name="dataflag" value="addexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Buy Existing Stock-It.1(failed) -->
+  <test thread-count="5" name="Modify Stock-Buy Existing Stock-It.2(failed)">
+    <parameter name="action" value="addstock"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="paraname1" value="paraval1"/>
+    <parameter name="datafilepath" value="D:\Learning Java\New\DataDrivenFramework//src//test//resources//jsons//data//stockdata.json"/>
+    <parameter name="dataflag" value="addexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="selectPortfolio" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="modifyStock"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent" invocation-numbers="0"/>
+          <include name="verifyTransactionHistory"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Buy Existing Stock-It.2(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->
